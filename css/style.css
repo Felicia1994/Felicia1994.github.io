@@ -1279,6 +1279,24 @@ footer .credits a {
   width: 50%;
 }
 
+.pdf-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.pdf-preview {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--font-lighter);
+  margin-bottom: 16px;
+  border-radius: 0.25rem;
+}
+
+.pdf-preview:hover {
+  transform: scale(1.01);
+}
+
 /*
 darker: var(--darker)
 lighter: var(--lighter)
